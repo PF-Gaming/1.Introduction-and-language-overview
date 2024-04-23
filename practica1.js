@@ -167,7 +167,30 @@ function printLetters(word){
 
 printLetters(word)
 
-//18 
+//18  Try in the console the expresion: “1” == 1, and the expression “1” === 1. Analyze the results
+//and think about the difference between == and ===.
+
+
+//19) Write a function arrayFromTo(start, end) that takes two numbers where the second is greater
+//than the first, and returns an array that contains each number from the “start” to the “end”
+//including both. e.g. arrayFromTo(3, 7) returns [3,4,5,6,7].
+
+
+function arrayFromTo(start, end){
+const arrayX = []
+    for (let i = start; i <= end; i++){
+        arrayX.push(i);
+    }
+    console.log(arrayX)
+}
+
+
+//20 Write a function arrayFromToStepping(start, end, step) that takes three numbers where the
+//second is greater than the first, and returns an array that contains numbers from the “start” to
+//the “end” including both by steps of the given “steps”. e.g. arrayFromToStepping(3, 13, 3)
+//returns [3,6,9,12].
+
+
 
 
 //30 Write a function initials(person) that takes a person and returns the initials of the person. e.g.
